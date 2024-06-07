@@ -1,0 +1,713 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* --------------------
+Beginning of nav-tag
+----------------------- */
+.nav-tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+
+.nav-tag a span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-tag2 a{
+    padding-right: 20px;
+    
+}
+
+
+.nav-btn{
+   background-color: #43A046;
+   border-color: #43A046;
+   border-radius: 4px;
+   width: 140px;
+   color: #fff;
+   padding: 10px; 
+}
+
+.nav-img{
+    display: none;
+}
+/* --------------------
+End of nav-tag
+----------------------- */
+
+
+
+/* --------------------
+Beginning of nex-section
+----------------------- */
+.nex-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F7FA;
+    margin-top: 20px;
+    padding:  40px;
+    
+}
+
+.nex-div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nex-div h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+.nex-span{
+    color: #388e3b;
+}
+.nex-div p{
+    color: #717171;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.nex-div button{
+    width: 110px;
+    background-color: #43A046;
+   border-color: #43A046;
+   border-radius: 4px;
+   color: #fff;
+   padding: 10px; 
+   margin-top: 20px;
+}
+.nex-section img{
+    margin-top: 90px;
+}
+/* --------------------
+End of nex-section
+----------------------- */
+
+
+
+/* --------------------
+Beginning of client
+----------------------- */
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.client h1{
+    color: #4D4D4D;
+    font-weight: 700;
+}
+.client p{
+    color: #717171;
+    font-size: 15px;
+}
+
+
+.nex-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+/* --------------------
+End of client
+----------------------- */
+
+
+
+/* --------------------
+Beginning of community
+----------------------- */
+.community{
+    text-align: center;
+    margin-top: 80px;
+}
+.community h1{
+    color: #4D4D4D;
+}
+.community p{
+    color: #717171;
+    margin-top: 15px;
+}
+
+.nex-com{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.div-1{
+    border: 1px solid snow;
+    padding: 30px;
+}
+
+.div-1 h1{
+   text-align: center;
+   color: #4D4D4D;
+}
+.div-1 p{
+    text-align: center;
+    color: #717171;
+}
+.div-1 img{
+    margin-left: 100px;
+}
+/* --------------------
+End of community
+----------------------- */
+
+
+
+/* --------------------
+Beginning of mobile
+----------------------- */
+.mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.mobile div h1{
+    color: #4D4D4D;
+    text-align: left;
+}
+.mobile div p{
+    color: #717171;
+     margin-top: 20px;
+}
+.mobile div button{
+    width: 130px;
+    background-color: #43A046;
+   border-color: #43A046;
+   border-radius: 4px;
+   color: #fff;
+   padding: 10px; 
+   margin-top: 20px; 
+}
+/* --------------------
+End of mobile
+----------------------- */
+
+
+
+/* --------------------
+Beginning of icon-sec
+----------------------- */
+.icon-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    background-color: #F5F7FA;
+    padding: 50px;
+}
+.icon-sec div h1{
+    color: #4D4D4D;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.icon-sec div p{
+    color: #717171;
+    margin-top: 10px;
+
+}
+
+.icon-sec div h1 span{
+    color: #43A046;
+}
+.table1 p{
+   margin-left: 40px;
+   color: #717171;
+   font-size: 15px;
+}
+.table1 span{
+    color: #4D4D4D;
+    font-weight: 800;
+    font-size: 18px;
+}
+.table1 img{
+    margin-top: 20px;
+}
+/* --------------------
+End of icon-sec
+----------------------- */
+
+
+
+
+/* --------------------
+Beginning of pana-sec
+----------------------- */
+
+.pana-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.pana-sec div h1{
+    color: #4D4D4D;
+    font-size: 28px;
+}
+
+.pana-sec div p{
+    color: #717171;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.pana-sec div button{
+    width: 110px;
+    background-color: #43A046;
+   border-color: #43A046;
+   border-radius: 4px;
+   color: #fff;
+   padding: 10px; 
+   margin-top: 15px; 
+}
+/* --------------------
+End of pana-sec
+----------------------- */
+
+
+
+/* --------------------
+Beginning of sec2
+----------------------- */
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #F5F7FA;
+    padding: 20px;
+}
+
+.sec2 div p{
+    color: #717171;
+}
+
+.sec2 div h2{
+    color: #43A046;
+    margin-top: 10px;
+}
+.sec-p{
+    margin-top: 10px;
+}
+
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo-p{
+    color: #43A046;
+}
+/* --------------------
+End of sec2
+----------------------- */
+
+
+
+
+/* --------------------
+Beginning of marketing
+----------------------- */
+.marketing{
+    text-align: center;
+    margin-top: 90px;
+}
+.marketing h1{
+    color: #4D4D4D;
+}
+.marketing p{
+    color: #717171;
+    margin-top: 10px;
+}
+
+.market-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.market-div1 p{
+    text-align: center;
+    color: #4D4D4D;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.market-div1 h4{
+    text-align: center;
+    color: #43A046;
+    margin-top: 10px;
+} 
+
+.market-div1 {
+    position: relative;
+    margin-top: -60px;
+    background-color: #F5F7FA;
+    border-color: #F5F7FA;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+    margin-left: 15px;
+    
+}
+/* --------------------
+End of marketing
+----------------------- */
+
+
+@media only screen and (max-width: 375px) {
+    .nav-tag2{
+        display: none;
+    }
+    
+    .nav-tag .nav-img{
+        display: block;
+        margin-left: 150px;
+    }
+    .nav-tag a span{
+        font-size: 16px;
+    }
+    .nav-tag a img{
+        width: 20px;
+    }
+    .nav-tag button{
+        width: 120px;
+        padding: 8px; 
+    }
+    .nex-section{
+      flex-direction: column;  
+    }
+    .nex-div h1{
+        font-size: 20px;
+    }
+    .nex-div p{
+        font-size: 12px;
+    }
+    .nex-div button{
+        width: 80px;
+        padding: 8px;
+    }
+    .nex-section img{
+        width: 50%;
+    }
+    .client h1{
+        font-size: 20px;
+    }
+    .client p{
+        font-size: 12px;
+    }
+    .community h1{
+        font-size: 20px;
+    }
+    .community p{
+        font-size: 12px;
+    }
+    .nex-com{
+        flex-direction: column;
+    }
+    .div-1 h1{
+        font-size: 20px;
+    }
+    .div-1 p{
+        font-size: 12px;
+    }
+    .div-1 img{
+        margin-right: 120px;
+        width: 20%;
+    }
+    .mobile{
+        flex-direction: column;
+    }
+    .mobile img{
+        width: 60%;
+    }
+    .mobile div h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .mobile div p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .mobile div button{
+        width: 100px;
+        padding: 8px;
+        margin-left: 140px;
+    }
+    .icon-sec{
+        flex-direction: column;
+    }
+    .icon-sec div h1{
+        font-size: 20px;
+    }
+    .icon-sec div p{
+        font-size: 12px;
+    }
+    
+    .table1 span{
+        font-size: 13px;
+    }
+    .table1 p{
+        font-size: 12px;
+    }
+    .pana-sec{
+        flex-direction: column;
+    }
+    .pana-sec img{
+        width: 50%;
+    }
+    .pana-sec div h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .pana-sec div p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .pana-sec div button{
+        width: 100px;
+        padding: 8px;
+        margin-left: 140px;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .sec2 img{
+        width: 50%;
+    }
+    .sec2 div p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .sec2 h2{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .logo-div img{
+        width: 20px;
+    }
+    .logo-p{
+        font-size: 12px;
+    }
+    .marketing h1{
+        font-size: 20px;
+    }
+    .marketing p{
+        font-size: 12px;
+    }
+    .market-sec{
+        flex-direction: column;
+    }
+    .market-div1 p{
+        font-size: 12px;
+    }
+    .market-div1 h4{
+        font-size: 13px;
+    }
+    
+  }
+
+
+
+
+
+  
+@media only screen and (max-width: 600px) {
+    .nav-tag2{
+        display: none;
+    }
+    
+    .nav-tag .nav-img{
+        display: block;
+        margin-left: 150px;
+    }
+    .nav-tag a span{
+        font-size: 16px;
+    }
+    .nav-tag a img{
+        width: 20px;
+    }
+    .nav-tag button{
+        width: 120px;
+        padding: 8px; 
+    }
+    .nex-section{
+      flex-direction: column;  
+    }
+    .nex-div h1{
+        font-size: 20px;
+    }
+    .nex-div p{
+        font-size: 12px;
+    }
+    .nex-div button{
+        width: 80px;
+        padding: 8px;
+    }
+    .nex-section img{
+        width: 50%;
+    }
+    .client h1{
+        font-size: 20px;
+    }
+    .client p{
+        font-size: 12px;
+    }
+    .community h1{
+        font-size: 20px;
+    }
+    .community p{
+        font-size: 12px;
+    }
+    .nex-com{
+        flex-direction: column;
+    }
+    .div-1 h1{
+        font-size: 20px;
+    }
+    .div-1 p{
+        font-size: 12px;
+    }
+    .div-1 img{
+        margin-right: 120px;
+        width: 20%;
+    }
+    .mobile{
+        flex-direction: column;
+    }
+    .mobile img{
+        width: 60%;
+    }
+    .mobile div h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .mobile div p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .mobile div button{
+        width: 100px;
+        padding: 8px;
+        margin-left: 190px;
+    }
+    .icon-sec{
+        flex-direction: column;
+    }
+    .icon-sec div h1{
+        font-size: 20px;
+    }
+    .icon-sec div p{
+        font-size: 12px;
+    }
+    
+    .table1 span{
+        font-size: 13px;
+    }
+    .table1 p{
+        font-size: 12px;
+    }
+    .pana-sec{
+        flex-direction: column;
+    }
+    .pana-sec img{
+        width: 50%;
+    }
+    .pana-sec div h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .pana-sec div p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .pana-sec div button{
+        width: 100px;
+        padding: 8px;
+        margin-left: 190px;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .sec2 img{
+        width: 50%;
+    }
+    .sec2 div p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .sec2 h2{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .logo-div img{
+        width: 20px;
+    }
+    .logo-p{
+        font-size: 12px;
+    }
+    .marketing h1{
+        font-size: 20px;
+    }
+    .marketing p{
+        font-size: 12px;
+    }
+    .market-sec{
+        flex-direction: column;
+    }
+    .market-div1 p{
+        font-size: 12px;
+    }
+    .market-div1 h4{
+        font-size: 13px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 320px) {
+    .pana-sec div button{
+        width: 100px;
+        padding: 8px;
+        margin-left: 110px;
+    }
+  }
+
+  .mobile div button{
+    width: 100px;
+    padding: 8px;
+    margin-left: 110px;
+}

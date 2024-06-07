@@ -1,0 +1,71 @@
+body{
+    background-color:  #180d48 ;
+}
+.btn-black{
+    background-color: #000000 ;
+}
+.btn-black:hover{
+    background-color: #000000;
+}
+.bg-Pink-Blue{
+    background-color: #D1C4E9;
+}
+
+.background{
+    background-color: #311b92;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.nav-item button{
+    color: #753eef;
+    background-color: #D1C4E9;
+    padding: 1px;
+}
+.btn1{
+    color: #006064;
+    background-color: #84ffff;
+    border-color: #84ffff;
+}
+.btn1:hover{
+    background-color: #84ffff;
+    color: #006064;
+}
+.container-div h4 button{
+    background-image: linear-gradient(#b2ebf2, #f8bbd0);
+    width: 100px;
+    padding: 4px;
+}
+.container-div1 {
+    background-image: linear-gradient(#b2ebf2, #f8bbd0);
+    border-radius: 9px;
+    border-color: transparent;
+}
+.col-btn{
+    background-color: #424242;
+}
+.btn-contain{
+    background-image: linear-gradient(#00e5ff, #ffffff);
+    padding: 10px;
+    text-align: left;
+}
+.btn-contain1{
+    background-image: linear-gradient(#b2ebf2, #d1cae9);
+    padding: 10px;
+    text-align: left;
+}
+.btn-contain2{
+    background-image: linear-gradient(#b2ebf2, #d1cae9, #f8bbd0);
+    padding: 10px;
+    text-align: left;
+}
+.accordionItemBgColor {
+    background-color: #651FFF;
+}
+
+
+/* @media only screen and (max-width: 375px) {
+    .contain-accord{
+        flex-direction: column;
+    }
+} */
